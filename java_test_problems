@@ -11,9 +11,11 @@ public class NumbersOperations {
         // Compare
         if (a > b) {
             System.out.println("a > b");
-        } else if (a < b) {
+        } 
+        else if (a < b) {
             System.out.println("a < b");
-        } else {
+        } 
+        else {
             System.out.println("a = b");
         }
 
@@ -24,7 +26,8 @@ public class NumbersOperations {
 
         if (b != 0) {
             System.out.println("Div: " + a + ":" + b + "=" + (a / b));
-        } else {
+        } 
+        else {
             System.out.println("Division by 0");
         }
     }
@@ -45,7 +48,7 @@ public class StringsComparison {
         if (a.equals(b)) {
             System.out.println("Identical");
         } 
-	else {
+     	else {
             System.out.println("Not identical");
         }
     }
